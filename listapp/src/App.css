@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 700px;
+  margin-inline: auto;
+}
+
+.input-form {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.input-field {
+  border: none;
+  flex: 1;
+  background-color: rgba(95, 158, 160, 0.384);
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 3px;
+  box-shadow: 2px 1px 4px rgba(95, 158, 160, 0.685) ;
+  outline: none;
+}
+
+.add-button {
+  border: none;
+  background-color: rgba(0, 100, 0, 0.486);
+  font-size: 1.2rem;
+  box-shadow: 2px 1px 4px  rgba(0, 100, 0, 0.486);
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  transition: all 0.1s ease-in;
+
+}
+
+.List {
+  background-color:  rgba(0, 100, 0, 0.486);
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  padding: 2px 0.5rem;
+  box-shadow: 2px 1px 4px  rgba(0, 100, 0, 0.486);
+  border-radius: 3px;
+}
+
+.item-name{
+  flex : 1;
+}
+
+.item-delet{
+  height: 40px;
+  border: none;
+  background-color: rgba(180, 28, 7, 0.904);
+  font-size: 1.2rem;
+  box-shadow: 2px 1px 4px  rgba(100, 68, 0, 0.486);
+  outline: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  align-self: center;
+  transition: all 0.1s ease-in;
+}
+
+.item-delet:active,
+.add-button:active {
+  transform: scale(0.95);
+}
+
+.item-check{
+  margin-right: 20px;
+  height: 20px;
+  width: 20px;
+  align-self: center;
+
+
+}
+
+
+
+
