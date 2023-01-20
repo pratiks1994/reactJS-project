@@ -1,7 +1,5 @@
 /* 
-====== 
 Variables 
-======
 */
 :root {
   --primaryLightColor: #d4e6a5;
@@ -25,10 +23,9 @@ Variables
   --fullWidth: 1170px;
 }
 /* 
-====== 
 Global Styles 
-======
 */
+
 * {
   margin: 0;
   padding: 0;
@@ -70,9 +67,7 @@ img {
 }
 
 /* 
-====== 
 Buttons 
-======
 */
 .btn,
 .btn-white,
@@ -127,9 +122,9 @@ Buttons
   border-color: var(--primaryLightColor);
 }
 /* 
-====== 
+
 Navbar
-======
+
 */
 .navbar {
   background: var(--mainWhite);
@@ -169,9 +164,9 @@ Navbar
   width: 12rem;
 }
 /* 
-====== 
+
 About
-======
+
 */
 .about-section {
   width: var(--smallWidth);
@@ -184,9 +179,9 @@ About
   letter-spacing: 2px;
 }
 /* 
-====== 
+
 Error
-======
+
 */
 .error-page {
   display: flex;
@@ -197,9 +192,9 @@ Error
   text-transform: capitalize;
 }
 /* 
-====== 
+
 Cocktails List 
-======
+
 */
 
 .section {
@@ -228,9 +223,9 @@ Cocktails List
   }
 }
 /* 
-====== 
+ 
 Cocktail 
-======
+
 */
 
 .cocktail {
@@ -267,9 +262,9 @@ Cocktail
   margin-bottom: 0.5rem;
 }
 /* 
-====== 
+
 Form
-======
+
 */
 .search {
   margin-top: 1rem;
@@ -304,9 +299,9 @@ Form
   font-size: 1.2rem;
 }
 /* 
-====== 
+
 Cocktail
-======
+
 */
 
 .cocktail-section {
